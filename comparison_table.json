@@ -1,0 +1,10 @@
+{
+ "protocol": "100 held-out scene-grouped validation images, identical for every row. Each classical method denoises at 128x128 then upsamples 2x bicubically; our model does both jointly. LPIPS uses AlexNet.",
+ "Bicubic (no denoising)":            {"psnr": 22.818, "ssim": 0.5747, "lpips": 0.4292},
+ "Frost filter (1982)":               {"psnr": 22.921, "ssim": 0.5436, "lpips": 0.5940},
+ "Lee filter (1980)":                 {"psnr": 25.654, "ssim": 0.6960, "lpips": 0.3660},
+ "Homomorphic log + BM3D":            {"psnr": 26.910, "ssim": 0.7505, "lpips": 0.3336},
+ "OUR MODEL (unrolled NAFNet, 4.02M)":{"psnr": 28.391, "ssim": 0.7921, "lpips": 0.2718},
+ "Oracle shrinkage (bound, ours)":    {"psnr": 28.179, "ssim": 0.8019, "lpips": 0.2892},
+ "note": "Our model exceeds the oracle bound on PSNR and LPIPS. The bound upper-limits local transform-domain shrinkage followed by BICUBIC upsampling; a learned method that also learns the upsampling prior can legitimately exceed it."
+}
