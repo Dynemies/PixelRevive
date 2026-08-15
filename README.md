@@ -32,9 +32,9 @@ one is present and the CPU otherwise, and needs no network access.
 These are all equivalent:
 
 ```bash
-python evaluate.py --input_dir IN --output_dir OUT
-python evaluate.py -i IN -o OUT
-python evaluate.py IN OUT
+python evaluation.py --input_dir IN --output_dir OUT
+python evaluation.py -i IN -o OUT
+python evaluation.py IN OUT
 ```
 
 **Input:** `.npy`, `.png`, `.tif`, `.jpg`. **Output:** one restored image per
