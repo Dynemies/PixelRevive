@@ -1,0 +1,9 @@
+{
+ "note": "25 epochs per row, identical OneCycle schedule and seed 1234, scene-grouped validation split. All rows have the same parameter count because the proximal network is shared across stages.",
+ "full":       {"psnr": 26.899, "delta":  0.000, "params": 4020136, "est_err": 0.0515, "hours": 1.74},
+ "no_physics": {"psnr": 26.897, "delta": -0.002, "params": 4020136, "est_err": 0.0511, "hours": 1.73},
+ "no_cond":    {"psnr": 26.906, "delta": 0.007, "params": 4020136, "est_err": 0.0503, "hours": 1.74},
+ "one_stage":  {"psnr": 26.538, "delta": -0.361, "params": 4020133, "est_err": 0.0508, "hours": 0.47},
+ "no_fft":     {"psnr": 26.850, "delta": -0.049, "params": 4020136, "est_err": 0.0503, "hours": 1.74},
+ "real_only":  {"psnr": 27.122, "delta": 0.223, "params": 4020136, "est_err": 0.0338, "hours": 1.74}
+}
