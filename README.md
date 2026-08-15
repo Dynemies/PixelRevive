@@ -22,7 +22,7 @@ Python 3.9 or newer. Inference needs only `torch`, `numpy` and `Pillow`.
 ## Run inference
 
 ```bash
-python evaluate.py --input_dir /path/to/test_images --output_dir /path/to/results
+python evaluation.py --input_dir /path/to/test_images --output_dir /path/to/results
 ```
 
 That is all. The script loads `checkpoints/best.pt` itself — nothing to
